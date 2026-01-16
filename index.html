@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Decisiones de Vida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="app">
+
+  <header class="topbar">
+    <h1>Decisiones de Vida</h1>
+    <div class="buttons">
+      <button id="btnInicio">🔄 Reiniciar</button>
+      <button id="btnFinalizar">📊 Ver Resultados</button>
+    </div>
+  </header>
+
+  <div class="layout">
+
+    <aside class="sidebar">
+      <h2>Áreas</h2>
+      <div id="areas"></div>
+
+      <h2>Estado</h2>
+      <div id="progreso-general"></div>
+      <ul id="variables"></ul>
+    </aside>
+
+    <main id="contenido">
+      <p>Selecciona un área para comenzar.</p>
+    </main>
+
+  </div>
+
+  <div id="notificacion" class="notificacion"></div>
+
+</div>
+
+<script src="game.js"></script>
+</body>
+</html>
